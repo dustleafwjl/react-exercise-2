@@ -1,0 +1,36 @@
+.card {
+  width: 140px;
+  .title {
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+  img {
+    width: 140px;
+    height: 140px;
+  }
+  .price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4px;
+    font-size: 16px;
+    height: 20px;
+    line-height: 20px;
+    button {
+      background-color: #2258d4;
+      border: none;
+      color: #fff;
+      font-size: 12px;
+      height: 20px;
+    line-height: 20px;
+      &::active {
+        background-color: #5094f8;
+      }
+      &:focus {
+        outline:none;
+        background-color: #5094f8;
+      }
+    }
+  }
+}

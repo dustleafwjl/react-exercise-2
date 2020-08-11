@@ -1,0 +1,15 @@
+.store {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2258d4;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    .title {
+      font-size: 32px;
+      font-weight: bold;
+    }
+  }
+}
