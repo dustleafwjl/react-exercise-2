@@ -1,6 +1,6 @@
 
 import React from 'react';
-import cardImg from '../../assets/shop.png'
+import cardImg from '../../assets/shoplogo.svg'
 
 const Badge = ({count}) => {
   return (
